@@ -11,6 +11,12 @@
 		589ACF512A4C81A6006AAC84 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589ACF502A4C81A6006AAC84 /* ContentView.swift */; };
 		589ACF532A4C81A8006AAC84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 589ACF522A4C81A8006AAC84 /* Assets.xcassets */; };
 		589ACF562A4C81A8006AAC84 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 589ACF552A4C81A8006AAC84 /* Preview Assets.xcassets */; };
+		589ACF5D2A4C8222006AAC84 /* ChatGPTAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589ACF5C2A4C8222006AAC84 /* ChatGPTAPI.swift */; };
+		589ACF5F2A4C8234006AAC84 /* ChatGPTAPIModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589ACF5E2A4C8234006AAC84 /* ChatGPTAPIModels.swift */; };
+		589ACF612A4C8249006AAC84 /* DotLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589ACF602A4C8249006AAC84 /* DotLoadingView.swift */; };
+		589ACF632A4C8257006AAC84 /* MessageRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589ACF622A4C8257006AAC84 /* MessageRow.swift */; };
+		589ACF652A4C8264006AAC84 /* MessageRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589ACF642A4C8264006AAC84 /* MessageRowView.swift */; };
+		589ACF672A4C826F006AAC84 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589ACF662A4C826F006AAC84 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		589ACF502A4C81A6006AAC84 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		589ACF522A4C81A8006AAC84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		589ACF552A4C81A8006AAC84 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		589ACF5C2A4C8222006AAC84 /* ChatGPTAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatGPTAPI.swift; sourceTree = "<group>"; };
+		589ACF5E2A4C8234006AAC84 /* ChatGPTAPIModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatGPTAPIModels.swift; sourceTree = "<group>"; };
+		589ACF602A4C8249006AAC84 /* DotLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotLoadingView.swift; sourceTree = "<group>"; };
+		589ACF622A4C8257006AAC84 /* MessageRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageRow.swift; sourceTree = "<group>"; };
+		589ACF642A4C8264006AAC84 /* MessageRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageRowView.swift; sourceTree = "<group>"; };
+		589ACF662A4C826F006AAC84 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +64,13 @@
 			isa = PBXGroup;
 			children = (
 				589ACF4E2A4C81A6006AAC84 /* ProfiteroGPTApp.swift */,
+				589ACF602A4C8249006AAC84 /* DotLoadingView.swift */,
+				589ACF622A4C8257006AAC84 /* MessageRow.swift */,
+				589ACF642A4C8264006AAC84 /* MessageRowView.swift */,
+				589ACF662A4C826F006AAC84 /* ViewModel.swift */,
+				589ACF5E2A4C8234006AAC84 /* ChatGPTAPIModels.swift */,
 				589ACF502A4C81A6006AAC84 /* ContentView.swift */,
+				589ACF5C2A4C8222006AAC84 /* ChatGPTAPI.swift */,
 				589ACF522A4C81A8006AAC84 /* Assets.xcassets */,
 				589ACF542A4C81A8006AAC84 /* Preview Content */,
 			);
@@ -137,7 +155,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				589ACF612A4C8249006AAC84 /* DotLoadingView.swift in Sources */,
+				589ACF5D2A4C8222006AAC84 /* ChatGPTAPI.swift in Sources */,
+				589ACF632A4C8257006AAC84 /* MessageRow.swift in Sources */,
 				589ACF512A4C81A6006AAC84 /* ContentView.swift in Sources */,
+				589ACF5F2A4C8234006AAC84 /* ChatGPTAPIModels.swift in Sources */,
+				589ACF652A4C8264006AAC84 /* MessageRowView.swift in Sources */,
+				589ACF672A4C826F006AAC84 /* ViewModel.swift in Sources */,
 				589ACF4F2A4C81A6006AAC84 /* ProfiteroGPTApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
